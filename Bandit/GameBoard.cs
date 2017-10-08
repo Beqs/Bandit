@@ -8,8 +8,6 @@ namespace Bandit
 {
     class GameBoard
     {
-
-        // int[,] Board = new int[9, 2] { {0,0}, {0,1}, {0,2}, {1,0}, {1,1}, {1,2}, {2,0}, {2,1}, {2,2}};
         static string[] Symbols = new string[100];
         Random Dice = new Random();
 
@@ -43,7 +41,7 @@ namespace Bandit
                 Symbols[f] = "D";
             }
         }
-
+        
         public void AddToGameBoard(int a, int b, int c, int d, int e, int f, int g, int h, int i)
         {
             do
